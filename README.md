@@ -41,13 +41,6 @@ The distribution of user activity is highly skewed—few subreddits dominate in 
 The top 100 subreddits show significant disparity in user base size.
 Using COUNT(DISTINCT author) helped focus on unique contributors.
 
- 
-### Project Structure
-
-`reddit-bigquery-social-analytics/
-├── reddit_subreddit_analysis.ipynb
-├── README.md
-└── requirements.txt (optional)`
 
 ### Dataset Source
 
