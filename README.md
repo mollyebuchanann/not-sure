@@ -17,7 +17,7 @@ This project analyzes Reddit comment data from 2014, stored in Google BigQuery, 
 - `matplotlib` for visualization
 - Jupyter Notebook for code execution and analysis
 
-## Key Tasks Performed
+## ✅ Key Tasks Performed
 
 ##  Data Extraction from BigQuery
 
