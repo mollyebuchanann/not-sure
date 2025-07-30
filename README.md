@@ -19,7 +19,7 @@ This project analyzes Reddit comment data from 2014, stored in Google BigQuery, 
 
 ## Key Tasks Performed
 
-###  Data Extraction from BigQuery
+##  Data Extraction from BigQuery
 
 - Retrieved Reddit comment data from the public dataset: `fh-bigquery.reddit_comments.2014`
    Example query used:
@@ -30,24 +30,24 @@ WHERE author IS NOT NULL
 GROUP BY subreddit
 
 
-### Visualization
+## Visualization
 Plotted a histogram to visualize the probability density of subreddit user activity
 Used logarithmic scale to handle skew in distribution
 Identified and displayed the top 100 subreddits based on active users
 
-### Insights
+## Insights
 
 The distribution of user activity is highly skewed—few subreddits dominate in active participation.
 The top 100 subreddits show significant disparity in user base size.
 Using COUNT(DISTINCT author) helped focus on unique contributors.
 
 
-### Dataset Source
+## Dataset Source
 
 `Google BigQuery Public Datasets – Reddit Comments`
 
 
-### ⚙️ Setup
+## ⚙️ Setup
 
 To run this project locally:
 
