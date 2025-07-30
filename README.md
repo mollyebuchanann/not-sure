@@ -21,7 +21,7 @@ This project analyzes Reddit comment data from 2014, stored in Google BigQuery, 
 
 ###  Data Extraction from BigQuery
 
-- Retrieved Reddit comment data from the public dataset: fh-bigquery.reddit_comments.2014
+- Retrieved Reddit comment data from the public dataset: 'fh-bigquery.reddit_comments.2014'
    Example query used:
   ```sql
 SELECT subreddit, COUNT(DISTINCT author) AS active_users
@@ -44,14 +44,14 @@ Using COUNT(DISTINCT author) helped focus on unique contributors.
  
 ### Project Structure
 
-reddit-bigquery-social-analytics/
+'reddit-bigquery-social-analytics/
 ├── reddit_subreddit_analysis.ipynb
 ├── README.md
-└── requirements.txt (optional)
+└── requirements.txt (optional)'
 
 ### Dataset Source
 
-Google BigQuery Public Datasets – Reddit Comments
+'Google BigQuery Public Datasets – Reddit Comments'
 
 
 ### ⚙️ Setup
@@ -60,8 +60,11 @@ To run this project locally:
 
 Ensure you have a Google Cloud project and BigQuery access.
 Authenticate your local environment:
-gcloud auth application-default login
+'gcloud auth application-default login'
 Install required Python packages:
-pip install google-cloud-bigquery pandas matplotlib
+'pip install google-cloud-bigquery pandas matplotlib'
 Open the notebook in Jupyter or VS Code and run each cell.
+
+
+
 
